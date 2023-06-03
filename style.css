@@ -1,0 +1,133 @@
+/* html {
+    font-size: 10px;
+  } */
+#top{
+    background-color: #f7f7fa;
+    color:#000048;
+}
+.btn{
+    background-color: #26efe9;
+    color: #000048;
+    border-radius: 2rem;
+    border: none;
+}
+.btn:hover{
+    background-color: #7ee0db;
+    color: #000048;
+}
+.carousel-caption{
+    position: absolute;
+    top: 25%;
+    left: 0%;
+    text-align: left;
+}
+.section-1{
+    height: 350px;
+    background-image: url(photo/background_image_1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+ #card_container{
+    background-image: linear-gradient(
+      150deg,
+      #2d2d8f 10%,
+      #006fba 50%,
+    #ffff00 94%
+
+    );
+}
+ 
+
+#footer_backgroundimage{
+    background-color: rgb(0, 0, 72,0.8);
+    
+    color: white;
+   
+}
+.section-2{
+    height: 350px;
+    background-image: url(photo/background_image_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#footercontent{
+    
+    margin-top: 150px;
+    padding-left: 40px;
+    
+}
+#secondaryFooter {
+    background-color: #e8e8e6;
+   
+  }
+
+  #secondaryFooter #iconContainer a {
+    margin: 0 1rem;
+  }
+  #secondaryFooter #iconContainer a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #secondaryFooter #navLinks{
+    font-size: 1rem;
+    padding-right: 0px;
+  }
+  #secondaryFooter #navLinks a, #primaryFooter a{
+    text-decoration: none;
+    color: #000048;
+    margin: 0 1rem;
+  }
+  #secondaryFooter #navLinks a:hover, #primaryFooter a:hover{
+    color: #006fba;
+  }
+  #primaryFooter h3{
+    font-size: 2rem;
+    color: #006fba;
+    padding: 1rem 0;
+  }
+  #primaryFooter a{
+    margin: 0.25rem 0;
+    font-size: 1.5rem;
+  }
+  #card_container1{
+    background-image: linear-gradient(
+      150deg,
+      /* #000048 1%, */
+      white 3%,
+      #000048 55%, 
+     
+      #006fba 94%
+
+    );
+}
+  #card_container1 .card-overlay{
+    padding-top: 20px;
+    position: absolute;
+    background: rgba(0, 0, 72, 0.6);
+    width: 100%;
+    height: 50%;
+    bottom: 0%;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  #card_container1 .card-overlay .hiddencontent{
+  display: none ;
+  }
+  #card_container1 .card-overlay:hover{
+  height: 100%;
+  }
+  #card_container1 .card-overlay:hover div{
+    display: block;
+  }
+  #card_container1 .card-overlay h6{
+    display: inline-block;
+    border-bottom: 0.1rem solid white;
+  }
+  #card_container1 .card-overlay p{
+    padding-top: 10px;
+    font-size: 30px;
+  }
+  
